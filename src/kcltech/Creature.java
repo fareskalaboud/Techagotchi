@@ -68,20 +68,21 @@ public class Creature {
             case 6: hunger += 7;
         }
 
+        System.out.println("Nomnnomnom... that was good!\n");
         if (hunger > 12) { hunger = 12; }
 
     }
 
     public void play() {
         hunger = 10;
-        System.out.println("Dum de dum de dum... yay! " + name + " is feeling happy!");
+        System.out.println("Dum de dum de dum... yay! " + name + " is feeling happy!\n");
         decreaseEnergy(3);
         decreaseHunger(2);
     }
 
     public void sleep() {
         energy = 10;
-        System.out.println("Zzzzzzzzzz... yay! " + name + " has had some rest!");
+        System.out.println("Zzzzzzzzzz... yay! " + name + " has had some rest!\n");
         decreaseHappiness(4);
         decreaseHunger(5);
     }
