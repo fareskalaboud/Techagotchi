@@ -1,4 +1,4 @@
-package com.company;
+package kcltech;
 
 import java.util.Scanner;
 
