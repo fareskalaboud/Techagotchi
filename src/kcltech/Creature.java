@@ -89,13 +89,13 @@ public class Creature {
     public String checkStatus() {
         String status = "";
         if (happiness < 5) {
-            status += "" + name + " isn't happy! You should play with it.\n";
+            status += "Oh no! " + name + " isn't happy! You should play with it.\n";
         }
         if (energy < 5) {
-            status += "" + name + " is getting tired! You should put it to sleep.\n";
+            status += "Ugh! " + name + " is getting tired! You should put it to sleep.\n";
         }
         if (hunger < 5) {
-            status += "" + name + " is getting hungry! You should feed it.\n";
+            status += "Oops! " + name + " is getting hungry! You should feed it.\n";
         }
         return status;
     }
