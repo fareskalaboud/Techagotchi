@@ -6,9 +6,9 @@ import java.util.Scanner;
  * Created by Fares Alaboud on 28/10/2015.
  */
 public class Game {
-    private static boolean userChoseToQuit;
-    private static Creature myCreature;
-    private static Scanner input = new Scanner(System.in);
+    private boolean userChoseToQuit;
+    private Creature myCreature;
+    private Scanner input = new Scanner(System.in);
 
     public void run() {
         userChoseToQuit = false;

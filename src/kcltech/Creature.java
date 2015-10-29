@@ -74,7 +74,7 @@ public class Creature {
     }
 
     public void play() {
-        hunger = 10;
+        happiness = 10;
         System.out.println("Dum de dum de dum... yay! " + name + " is feeling happy!\n");
         decreaseEnergy(3);
         decreaseHunger(2);
